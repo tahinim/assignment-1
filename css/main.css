@@ -81,6 +81,7 @@ img {
   width: 100%;
   padding-right: 3rem;
   padding-left: 3rem;
+  position: relative;
 }
 .title {
     text-align:center;
@@ -123,6 +124,7 @@ ul {
     padding-top: 0.5rem;
     text-align: center;
     padding-left: 10rem;
+    width: 100%;
 }
 
 .lightgrey {
@@ -363,4 +365,8 @@ dd {
     
 .p {
 text-align: center;
+}
+
+.icon {
+    width: 50%;
 }
