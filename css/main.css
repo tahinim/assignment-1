@@ -43,13 +43,13 @@ body {
 }
 
 .masthead {
-    background-color:#AAAAAA;
+    background-color:#6666CC;
     overflow: hidden;
     display: block;
 }
 img {
   display: block;
-  width: 100%;
+  width: 50%;
   padding-right: 1rem;
 }
 .title {
@@ -58,7 +58,49 @@ img {
     padding: 0 0 .5rem;
 }
 .intro {
-    background-color: #e2e2e2;
+    background-color: #6699FF;
     font-weight: 300;
     text-align:center;
+}
+
+.nav {
+    padding:0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    margin:0;
+    padding:0;
+}
+
+.header {
+    background-color: #E8E8E8;
+    overflow: hidden;
+    text-align: center;
+}
+
+.footer {
+    background-color:#AAAAAA;
+    overflow: hidden;
+    font-weight: 400;
+    padding-top: 0.5rem;
+    text-align: center;
+    padding-left: 4rem;
+}
+
+.lightgrey {
+    background-color: #E8E8E8;
+    overflow: hidden;
+}
+
+.mediumgrey {
+    background-color: #D3D3D3;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
